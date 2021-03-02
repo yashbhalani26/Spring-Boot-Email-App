@@ -31,6 +31,7 @@ public class EmailController {
 	@GetMapping(value = { "/", "/home", "/index" })
 	public String homePage() {
 		log.info("Showing HomePage...");
+		System.err.println("HII ");
 		return "index";
 	}
 
